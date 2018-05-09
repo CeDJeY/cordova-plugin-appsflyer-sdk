@@ -7,7 +7,7 @@
 ----------
 **Important!** <br>
 Cordova AppsFlyer plugin version **4.4.0** and higher are meant to be used with **cordova-android@7.0.0**
-<br>For lower versions of cordova-android please use plugin version 4.3.0 available @ https://github.com/AppsFlyerSDK/cordova-plugin-appsflyer-sdk/tree/releases/4.x.x/4.3.x/4.3.0_cordova_android_6
+<br>For lower versions of cordova-android please use plugin version 4.3.0 available @ https://github.com/CeDJeY/cordova-plugin-appsflyer-sdk/tree/releases/4.x.x/4.3.x/4.3.0_cordova_android_6
 
 ----------
 In order for us to provide optimal support, we would kindly ask you to submit any issues to support@appsflyer.com
@@ -67,7 +67,7 @@ $ cordova plugin add cordova-plugin-appsflyer-sdk
 or directly from git:
 
 ```
-$ cordova plugin add https://github.com/AppsFlyerSDK/cordova-plugin-appsflyer-sdk.git
+$ cordova plugin add https://github.com/CeDJeY/cordova-plugin-appsflyer-sdk.git
 ```
 
 
@@ -238,7 +238,7 @@ to track ROI (Return on Investment) and LTV (Lifetime Value).
 
 | parameter   | type                        | description |
 | ----------- |-----------------------------|--------------|
-| `eventName` | `String`                    | custom event name, is presented in your dashboard.  See the Event list [HERE](https://github.com/AppsFlyerSDK/cordova-plugin-appsflyer-sdk/blob/master/src/ios/AppsFlyerTracker.h)  |
+| `eventName` | `String`                    | custom event name, is presented in your dashboard.  See the Event list [HERE](https://github.com/CeDJeY/cordova-plugin-appsflyer-sdk/blob/master/src/ios/AppsFlyerTracker.h)  |
 | `eventValue` | `Object`                    | event details |
 
 *Example:*
